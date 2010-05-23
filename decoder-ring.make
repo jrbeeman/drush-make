@@ -8,8 +8,10 @@ projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.16.77
 projects[] = admin_menu
 projects[] = adminrole
 projects[] = advanced_help
+projects[] = auto_nodetitle
 projects[] = better_formats
 projects[] = bbcode
+projects[] = cck
 projects[] = coder
 projects[] = context
 projects[] = ctools
@@ -31,6 +33,7 @@ projects[] = link
 projects[] = masquerade
 projects[] = migrate
 projects[] = nodequeue
+projects[] = nodereference_url
 projects[] = panels
 projects[] = pathauto
 projects[] = schema
@@ -44,6 +47,10 @@ projects[] = views_bulk_operations
 projects[] = views_slideshow
 projects[] = webform
 projects[] = wysiwyg
+
+; Patches
+; Feeds module patch for node references
+projects[feeds][patch][] = "http://drupal.org/files/issues/feeds-nodereference-724536.patch"
 
 ; Decoder Ring modules
 projects[dr][type] = module
