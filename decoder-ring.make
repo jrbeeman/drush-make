@@ -11,7 +11,8 @@ projects[] = advanced_help
 projects[] = auto_nodetitle
 projects[] = better_formats
 projects[] = bbcode
-projects[] = cck
+projects[cck][type] = module
+projects[cck][patch][] = "http://drupal.org/files/issues/Content-Construction-Kit_334121_10.patch"
 projects[] = coder
 projects[] = context
 projects[] = ctools
@@ -48,9 +49,12 @@ projects[] = views_slideshow
 projects[] = webform
 projects[] = wysiwyg
 
-; Patches
-; Feeds module patch for node references
+; Feeds
+projects[feeds][type] = module
+; patch for node references
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds-nodereference-724536.patch"
+; patch for supporting local file attachment - only applies against 6.x-1.x-dev branch
+projects[feeds][patch][] = "http://drupal.org/files/issues/755556-6_relative_files_0.patch"
 
 ; Decoder Ring modules
 projects[dr][type] = module
