@@ -73,6 +73,11 @@ libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7_jquery.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
+; QueryPath
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://cloud.github.com/downloads/technosophos/querypath/QueryPath-2.0.1.tgz"
+libraries[tinymce][directory_name] = "QueryPath"
+
 ; jQuery UI Library
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
