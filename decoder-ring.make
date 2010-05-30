@@ -45,6 +45,7 @@ projects[] = vertical_tabs
 projects[] = views
 projects[] = views_bonus
 projects[] = views_bulk_operations
+projects[] = views_customfield
 projects[] = views_slideshow
 projects[] = webform
 projects[] = wysiwyg
