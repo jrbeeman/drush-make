@@ -11,8 +11,6 @@ projects[] = advanced_help
 projects[] = auto_nodetitle
 projects[] = better_formats
 projects[] = bbcode
-projects[cck][type] = module
-projects[cck][patch][] = "http://drupal.org/files/issues/Content-Construction-Kit_334121_10.patch"
 projects[] = coder
 projects[] = context
 projects[] = ctools
@@ -22,7 +20,6 @@ projects[] = emfield
 projects[] = features
 projects[] = filefield
 projects[] = flag
-projects[] = fusioncharts
 projects[] = imageapi
 projects[] = imagecache
 projects[] = imagefield
@@ -49,6 +46,15 @@ projects[] = views_customfield
 projects[] = views_slideshow
 projects[] = webform
 projects[] = wysiwyg
+
+; CCK
+projects[cck][type] = module
+projects[cck][patch][] = "http://drupal.org/files/issues/Content-Construction-Kit_334121_10.patch"
+
+; FusionCharts
+projects[fusioncharts][type] = module
+; patch to allow 0 as a value in multiseries graphs
+projects[fusioncharts][patch][] = "http://github.com/jrbeeman/dr/raw/master/patches/fusioncharts-allowzero-multiseries.patch.txt"
 
 ; Feeds
 projects[feeds][type] = module
