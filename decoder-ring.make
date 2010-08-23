@@ -1,8 +1,12 @@
+; Decoder Ring (http://decoder-ring.net) .make file
+; Version: 6.x-1.1
+
+
 ; Core: Pressflow 6.x
 core = 6.x
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.16.77/+download/pressflow-6.16.77.tar.gz"
+projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92/+download/pressflow-6.19.92.tar.gz"
 
 ; Contrib modules
 projects[] = admin_menu
@@ -47,26 +51,24 @@ projects[] = views_slideshow
 projects[] = webform
 projects[] = wysiwyg
 
-; CCK
-projects[cck][type] = module
-projects[cck][patch][] = "http://drupal.org/files/issues/Content-Construction-Kit_334121_10.patch"
-
 ; FusionCharts
 projects[fusioncharts][type] = module
+projects[fusioncharts][version] = 1.0
 ; patch to allow 0 as a value in multiseries graphs
 projects[fusioncharts][patch][] = "http://github.com/jrbeeman/dr/raw/master/patches/fusioncharts-allowzero-multiseries.patch.txt"
 
 ; Feeds
 projects[feeds][type] = module
+projects[feeds][version] = 1.0-beta4
 ; patch for node references
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds-nodereference-724536.patch"
-; patch for supporting local file attachment - only applies against 6.x-1.x-dev branch
-projects[feeds][patch][] = "http://drupal.org/files/issues/755556-6_relative_files_0.patch"
+; patch for supporting local file attachment - only applies against 6.x-1.0-beta4
+projects[feeds][patch][] = "http://github.com/jrbeeman/drupal-patches/raw/master/755556-6_relative_files_1-beta4.patch"
 
 ; Decoder Ring modules
 projects[dr][type] = module
 projects[dr][download][type] = git
-projects[dr][download][url] = git@github.com:jrbeeman/dr.git
+projects[dr][download][url] = git://github.com/jrbeeman/dr.git
 
 ; Themes
 projects[] = zen
@@ -81,9 +83,9 @@ libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/ti
 libraries[tinymce][directory_name] = "tinymce"
 
 ; QueryPath
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://cloud.github.com/downloads/technosophos/querypath/QueryPath-2.0.1.tgz"
-libraries[tinymce][directory_name] = "QueryPath"
+libraries[querypath][download][type] = "get"
+libraries[querypath][download][url] = "http://cloud.github.com/downloads/technosophos/querypath/QueryPath-2.0.1.tgz"
+libraries[querypath][directory_name] = "QueryPath"
 
 ; jQuery UI Library
 libraries[jquery_ui][download][type] = "get"
