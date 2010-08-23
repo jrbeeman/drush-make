@@ -15,6 +15,7 @@ projects[] = advanced_help
 projects[] = auto_nodetitle
 projects[] = better_formats
 projects[] = bbcode
+projects[] = captcha
 projects[] = cck
 projects[] = coder
 projects[] = context
@@ -22,9 +23,11 @@ projects[] = ctools
 projects[] = date
 projects[] = devel
 projects[] = emfield
+projects[] = examples
 projects[] = features
 projects[] = filefield
 projects[] = flag
+projects[] = google_analytics
 projects[] = imageapi
 projects[] = imagecache
 projects[] = imagefield
@@ -34,6 +37,7 @@ projects[] = jquery_update
 projects[] = link
 projects[] = masquerade
 projects[] = migrate
+projects[] = mollom
 projects[] = nodequeue
 projects[] = nodereference_url
 projects[] = panels
@@ -66,15 +70,22 @@ projects[feeds][patch][] = "http://drupal.org/files/issues/feeds-nodereference-7
 ; patch for supporting local file attachment - only applies against 6.x-1.0-beta4
 projects[feeds][patch][] = "http://github.com/jrbeeman/drupal-patches/raw/master/755556-6_relative_files_1-beta4.patch"
 
+
 ; Decoder Ring modules
 projects[dr][type] = module
 projects[dr][download][type] = git
 projects[dr][download][url] = git://github.com/jrbeeman/dr.git
 
+projects[decoder_ring][type] = "module"
+projects[decoder_ring][download][type] = "get"
+projects[decoder_ring][download][url] = "http://github.com/downloads/jrbeeman/drupal-features/decoder_ring-6.x-1.0-dev.tgz"
+
+
 ; Themes
 projects[] = zen
 projects[] = fusion
 projects[] = acquia_prosper
+projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[singular][location] = "http://code.developmentseed.org/fserver"
 projects[tao][location] = "http://code.developmentseed.org/fserver"
 
