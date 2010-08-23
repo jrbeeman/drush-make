@@ -15,6 +15,7 @@ projects[] = advanced_help
 projects[] = auto_nodetitle
 projects[] = better_formats
 projects[] = bbcode
+projects[] = cck
 projects[] = coder
 projects[] = context
 projects[] = ctools
