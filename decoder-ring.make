@@ -68,7 +68,7 @@ projects[feeds][version] = 1.0-beta4
 ; patch for node references
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds-nodereference-724536.patch"
 ; patch for supporting local file attachment - only applies against 6.x-1.0-beta4
-projects[feeds][patch][] = "http://github.com/jrbeeman/drupal-patches/raw/master/755556-6_relative_files_1-beta4.patch"
+projects[feeds][patch][] = "http://drupal.org/files/issues/755556-13_local_files.patch"
 
 
 ; Decoder Ring modules
@@ -78,7 +78,7 @@ projects[dr][download][url] = git://github.com/jrbeeman/dr.git
 
 projects[decoder_ring][type] = "module"
 projects[decoder_ring][download][type] = "get"
-projects[decoder_ring][download][url] = "http://github.com/downloads/jrbeeman/drupal-features/decoder_ring-6.x-1.0-dev.tgz"
+projects[decoder_ring][download][url] = "http://github.com/downloads/jrbeeman/drupal-features/decoder_ring-6.x-1.0-dev-20100904.tgz"
 
 
 ; Themes
