@@ -1,5 +1,5 @@
 ; Decoder Ring (http://decoder-ring.net) .make file
-; Version: 6.x-1.1
+; Version: 6.x-1.2
 
 
 ; Core: Pressflow 6.x
@@ -9,62 +9,49 @@ projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92/+download/pressflow-6.19.92.tar.gz"
 
 ; Contrib modules
-projects[] = admin_menu
-projects[] = adminrole
-projects[] = advanced_help
-projects[] = apachesolr
-projects[] = auto_nodetitle
-projects[] = better_formats
-projects[] = bbcode
-projects[] = captcha
-projects[] = cck
-projects[] = coder
-projects[] = context
-projects[] = ctools
-projects[] = date
-projects[] = devel
-projects[] = emfield
-projects[] = examples
-projects[] = features
-projects[] = filefield
-projects[] = flag
-projects[] = google_analytics
-projects[] = imageapi
-projects[] = imagecache
-projects[] = imagefield
-projects[] = insert
-projects[] = jquery_ui
-projects[] = jquery_update
-projects[] = link
-projects[] = masquerade
-projects[] = migrate
-projects[] = mollom
-projects[] = nodequeue
-projects[] = nodereference_url
-projects[] = panels
-projects[] = pathauto
-projects[] = schema
-projects[] = skinr
-projects[] = strongarm
-projects[] = token
-projects[] = tw
-projects[] = vertical_tabs
-projects[] = views
-projects[] = views_bonus
-projects[] = views_bulk_operations
-projects[] = views_customfield
-projects[] = views_slideshow
-projects[] = webform
-projects[] = wysiwyg
+projects[admin_menu] = 1.6
+projects[adminrole] = 1.3
+projects[advanced_help] = 1.2
+projects[apachesolr] = 2.0-beta3
+projects[auto_nodetitle] = 1.2
+projects[better_formats] = 1.2
+projects[captcha] = 2.3-rc2
+projects[cck] = 2.8
+projects[coder] = 2.0-beta1
+projects[ctools] = 1.7
+projects[date] = 2.6
+projects[devel] = 1.22
+projects[emfield] = 1.24
+projects[features] = 1.0
+projects[filefield] = 3.7
+projects[flag] = 1.3
+projects[google_analytics] = 2.2
+projects[imageapi] = 1.8
+projects[imagecache] = 2.0-beta10
+projects[imagefield] = 3.7
+projects[insert] = 1.0-beta6
+projects[jquery_ui] = 1.3
+projects[jquery_update] = 1.1
+projects[link] = 2.9
+projects[masquerade] = 1.4
+projects[mollom] = 1.13
+projects[nodereference_url] = 1.6
+projects[panels] = 3.7
+projects[strongarm] = 2.0
+projects[token] = 1.14
+projects[vertical_tabs] = 1.0-rc1
+projects[views] = 2.11
+projects[views_bonus] = 1.1
+projects[views_bulk_operations] = 1.9
+projects[views_customfield] = 1.0
+projects[wysiwyg] = 2.1
 
 ; FusionCharts
-projects[fusioncharts][type] = module
 projects[fusioncharts][version] = 1.0
 ; patch to allow 0 as a value in multiseries graphs
 projects[fusioncharts][patch][] = "http://github.com/jrbeeman/dr/raw/master/patches/fusioncharts-allowzero-multiseries.patch.txt"
 
 ; Feeds
-projects[feeds][type] = module
 projects[feeds][version] = 1.0-beta4
 ; patch for node references
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds-nodereference-724536.patch"
@@ -83,9 +70,6 @@ projects[decoder_ring][download][url] = "http://github.com/downloads/jrbeeman/dr
 
 
 ; Themes
-projects[] = zen
-projects[] = fusion
-projects[] = acquia_prosper
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[singular][location] = "http://code.developmentseed.org/fserver"
 projects[tao][location] = "http://code.developmentseed.org/fserver"
