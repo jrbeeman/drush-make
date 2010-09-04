@@ -12,6 +12,7 @@ projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.92
 projects[] = admin_menu
 projects[] = adminrole
 projects[] = advanced_help
+projects[] = apachesolr
 projects[] = auto_nodetitle
 projects[] = better_formats
 projects[] = bbcode
