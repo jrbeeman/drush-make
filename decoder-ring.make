@@ -37,6 +37,7 @@ projects[masquerade] = 1.4
 projects[mollom] = 1.13
 projects[nodereference_url] = 1.6
 projects[panels] = 3.7
+projects[seven] = 1.0-beta11
 projects[strongarm] = 2.0
 projects[token] = 1.14
 projects[vertical_tabs] = 1.0-rc1
