@@ -94,3 +94,9 @@ libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[FusionChartsFree][download][type] = "get"
 libraries[FusionChartsFree][download][url] = "http://www.fusioncharts.com/free/Downloads/FusionChartsFree.zip"
 libraries[FusionChartsFree][destination] = "modules/fusioncharts"
+
+; SolrPHPClient
+libraries[SolrPhpClient][download][type] = "get"
+libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
+libraries[SolrPhpClient][destination] = "modules/apachesolr"
+libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
