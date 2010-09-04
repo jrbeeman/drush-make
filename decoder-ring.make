@@ -1,5 +1,5 @@
 ; Decoder Ring (http://decoder-ring.net) .make file
-; Version: 6.x-1.2
+; Version: 6.x-1.3
 
 
 ; Core: Pressflow 6.x
@@ -36,6 +36,7 @@ projects[link] = 2.9
 projects[masquerade] = 1.4
 projects[mollom] = 1.13
 projects[nodereference_url] = 1.6
+projects[og] = 2.1
 projects[panels] = 3.7
 projects[seven] = 1.0-beta11
 projects[strongarm] = 2.0
