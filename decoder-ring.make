@@ -68,7 +68,7 @@ projects[dr][download][url] = git://github.com/jrbeeman/dr.git
 
 projects[decoder_ring][type] = "module"
 projects[decoder_ring][download][type] = "get"
-projects[decoder_ring][download][url] = "http://github.com/downloads/jrbeeman/drupal-features/decoder_ring-6.x-1.0-dev-20100904.tgz"
+projects[decoder_ring][download][url] = "http://github.com/downloads/jrbeeman/drupal-features/decoder_ring-6.x-1.0-alpha1.tgz"
 
 
 ; Themes
