@@ -30,17 +30,19 @@ projects[imageapi] = 1.8
 projects[imagecache] = 2.0-beta10
 projects[imagefield] = 3.7
 projects[insert] = 1.0-beta6
-projects[jquery_ui] = 1.3
+projects[jquery_ui] = 1.4
 projects[jquery_update] = 1.1
 projects[link] = 2.9
 projects[masquerade] = 1.4
-projects[mollom] = 1.13
+projects[mollom] = 1.14
 projects[nodereference_url] = 1.6
 projects[og] = 2.1
+projects[og_vocab] = 1.1
 projects[panels] = 3.7
 projects[seven] = 1.0-beta11
 projects[strongarm] = 2.0
 projects[token] = 1.14
+projects[update_advanced] = 1.1
 projects[vertical_tabs] = 1.0-rc1
 projects[views] = 2.11
 projects[views_bonus] = 1.1
@@ -54,11 +56,9 @@ projects[fusioncharts][version] = 1.0
 projects[fusioncharts][patch][] = "http://github.com/jrbeeman/dr/raw/master/patches/fusioncharts-allowzero-multiseries.patch.txt"
 
 ; Feeds
-projects[feeds][version] = 1.0-beta4
+projects[feeds][version] = 1.0-beta6
 ; patch for node references
 projects[feeds][patch][] = "http://drupal.org/files/issues/feeds-nodereference-724536.patch"
-; patch for supporting local file attachment - only applies against 6.x-1.0-beta4
-projects[feeds][patch][] = "http://drupal.org/files/issues/755556-13_local_files.patch"
 
 
 ; Decoder Ring modules
