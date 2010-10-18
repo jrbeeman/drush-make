@@ -32,6 +32,7 @@ projects[imagefield] = 3.7
 projects[insert] = 1.0-beta6
 projects[jquery_ui] = 1.4
 projects[jquery_update] = 1.1
+projects[job_scheduler] = 1.0-beta3
 projects[link] = 2.9
 projects[masquerade] = 1.4
 projects[mollom] = 1.14
