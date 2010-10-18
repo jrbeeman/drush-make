@@ -39,7 +39,6 @@ projects[nodereference_url] = 1.6
 projects[og] = 2.1
 projects[og_vocab] = 1.1
 projects[panels] = 3.7
-projects[seven] = 1.0-beta11
 projects[strongarm] = 2.0
 projects[token] = 1.14
 projects[update_advanced] = 1.1
@@ -72,8 +71,11 @@ projects[decoder_ring][download][url] = "http://github.com/downloads/jrbeeman/dr
 
 
 ; Themes
-projects[rubik][location] = "http://code.developmentseed.org/fserver"
+projects[seven][version] = 1.0-beta11
+projects[seven][patch][] = "http://github.com/jrbeeman/dr/raw/master/patches/seven-page.patch"
 projects[singular][location] = "http://code.developmentseed.org/fserver"
+projects[singular][patch][] = "http://github.com/jrbeeman/dr/raw/master/patches/singular-page.patch"
+projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[tao][location] = "http://code.developmentseed.org/fserver"
 
 ; TinyMCE
